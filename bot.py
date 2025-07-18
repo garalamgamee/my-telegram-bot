@@ -1,7 +1,7 @@
 import os
 from telegram.ext import Updater, MessageHandler, Filters
 
-TOKEN = os.getenv("7650315995:AAHU9riaEtk7W0CkejSNMQDijihHrXllAF8")
+TOKEN = os.getenv("AAHU9riaEtk7W0CkejSNMQDijihHrXllAF8")
 
 def handle_message(update, context):
     user_text = update.message.text
